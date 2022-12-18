@@ -60,7 +60,7 @@ const Home = ({ imageUrl, msg }) => {
     <div>
       <h1>Image Gen</h1>
       <p><b>Image Gen</b> uses <a href="https://openai.com/dall-e-2" target="_blank">OpenAI's Dall-E models</a> to generate uniqe images.</p>
-      <p>Try: <b><i>Astronaut riding a unicorn in space</i></b> and hit submit to get image.</p>
+      <p>Try: <b><i>Astronaut riding a motorbike in space</i></b> and hit submit to get image.</p>
       <form method="POST" action="/prompt">
         <input placeholder="Image description" name="prompt" required/>
         <br/>
