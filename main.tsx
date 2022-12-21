@@ -66,7 +66,7 @@ const Home = ({ imageUrl, msg }) => {
       </form>
       <br/>
       {imageUrl ? <img class="card" src={imageUrl} alt="" /> : null}
-      {msg ? <p class="card">{msg}</p> : null}
+      {msg ? <p>{msg}</p> : null}
     </>
   );
 }
@@ -87,7 +87,7 @@ const render = (page) => {
         margin: 0 auto;
       }
       input {
-        width: 512px !important;
+        max-width: 512px !important;
         margin: 0 auto;
       }
     `],
