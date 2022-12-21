@@ -1,6 +1,5 @@
 /** @jsx h */
-/** @jsxFrag Fragment */
-import { h, html, Fragment } from "../deps.ts";
+import { h, html } from "../deps.ts";
 
 const Layout = (page) => {
   return html({
@@ -24,11 +23,9 @@ const Layout = (page) => {
     `],
     scripts: [],
     body: (
-      <>
-        <main>
-          {page}
-        </main>
-      </>
+      <main>
+        {page}
+      </main>
     ),
   });
 }
