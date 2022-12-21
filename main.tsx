@@ -84,9 +84,11 @@ const render = (page) => {
       }
       .card {
         padding: 0;
+        margin: 0 auto;
       }
       input {
         width: 512px !important;
+        margin: 0 auto;
       }
     `],
     scripts: [],
